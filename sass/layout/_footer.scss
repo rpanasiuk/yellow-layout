@@ -1,0 +1,39 @@
+.footer {
+	background: $color-black;
+	min-height: 20rem;
+
+	@include clearfix;
+
+	&__menu {
+		float: left;
+
+	}
+
+	&__box {		
+		padding: 5rem 0;
+		
+		&-list {
+			list-style: none;
+
+			& li {
+				display: block;
+				font-size: 1.6rem;
+				font-weight: 600;
+				color: $color-white;
+				text-transform: uppercase;
+				min-width: 20rem;
+			}		
+		}
+
+	}
+
+	&__copyright {
+		float: right;
+		padding: 5rem 0;
+
+		&--text {
+			font-size: 1.6rem;
+			color: $color-grey-dark;
+		}
+	}
+}

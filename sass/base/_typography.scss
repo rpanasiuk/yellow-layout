@@ -1,0 +1,72 @@
+body {
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+	color: $color-grey-dark;
+	line-height: 1.7;
+}
+
+.heading-primary {
+	font-size: 12rem;
+	font-weight: 700;
+	color: $color-white;
+	text-transform: uppercase;
+
+	&--right {
+		color: $color-black;
+	}
+}
+
+.heading-secondary {
+	font-size: 7rem;
+	font-weight: 700;
+	color: $color-white;
+	text-transform: uppercase;
+	line-height: 1;
+
+	&--left {
+		color: $color-black;
+	}
+}
+
+.heading-tertiary {
+	font-size: 2rem;
+	font-weight: 300;
+	color: $color-black;
+	text-transform: uppercase;
+}
+
+.paragraph {
+	font-size: 1.6rem;
+
+	&--header {
+		padding: 0 8rem;
+		margin-bottom: 8rem;
+		text-align: center;	
+	}
+
+	&--box {
+		font-size: 1.3rem;
+		margin-bottom: 2.5rem;
+	}
+
+	&--about {
+		font-size: 1.4rem;
+		text-align: justify;
+	}
+}
+
+.section-title {
+	
+	&__small-text {
+		color: $color-black;
+		font-size: 1.2rem;
+		font-weight: 400;
+		display: block;
+		margin-bottom: 1rem;
+	}
+
+	&__border-bottom {
+		border-bottom: 2px solid $color-black;
+		width: 14rem;
+	}
+}

@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box;
+	background: #F9DB61FF;
+
+
+}
+
+section {
+	padding: 5rem 0;
+	width: $grid-width;
+	margin: 0 auto 8rem;
+}
